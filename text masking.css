@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');  /* Imports Roboto font from Google Fonts */
+
+h1 {
+
+    font-family: "Roboto", sans-serif; /* Sets font to Roboto (fallback to sans-serif) */
+    font-weight: 900;  /* Sets font weight to bold (900)  */
+    font-style: normal; /*  Sets font style to normal (not italic) */
+    font-size: 140px;   /* Sets font size to 140 pixels */
+    background: url( strawberries-7367633_1280.jpg); /* Sets background image (replace with your image path)*/
+    background-size: contain;  /*Makes image fit within heading element*/
+    background-position: center;  /*Centers image within heading*/
+    background-clip: text;  /* Clips background image by text shape*/
+    color:transparent; /*Hides text color (text revealed through image)*/
+   margin:0px;
+  
+}
